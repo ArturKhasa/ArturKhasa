@@ -1,4 +1,8 @@
 #!/bin/bash
+# Запуск
+# wget https://raw.githubusercontent.com/ArturKhasa/ArturKhasa/refs/heads/main/sshgen.sh -O script.sh
+# chmod +x script.sh
+# ./script.sh
 
 # Генерация SSH-ключа
 if [ ! -f ~/.ssh/id_rsa ]; then
