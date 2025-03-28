@@ -1,3 +1,9 @@
+#!/bin/bash
+# Запуск
+# wget https://raw.githubusercontent.com/ArturKhasa/ArturKhasa/refs/heads/main/docker-installer.sh -O docker-installer.sh
+# chmod +x docker-installer.sh
+# ./docker-installer.sh
+
 sudo apt update
 sudo apt install curl software-properties-common ca-certificates apt-transport-https -y
 wget -O- https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor | sudo tee /etc/apt/keyrings/docker.gpg > /dev/null
